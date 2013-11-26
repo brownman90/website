@@ -75,7 +75,6 @@ gem 'bootstrap-kaminari-views', '~> 0.0.2'
 
 # Other dependencies
 gem 'gabba', '~> 1.0.1'
-gem 'simple-navigation', '~> 3.10.0'
 gem 'geocoder', '~> 1.1.9'
 
 group :development do
