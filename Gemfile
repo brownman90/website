@@ -71,7 +71,9 @@ gem 'therubyracer', '~> 0.12.0'
 gem 'gravatar_image_tag', '~> 1.2.0'
 
 # Pagination
-gem 'bootstrap-kaminari-views', '~> 0.0.2'
+# Can't update to 0.15 for now, because ActiveAdmin
+# is locked to this version
+gem 'kaminari', '~> 0.14.1'
 
 # Other dependencies
 gem 'gabba', '~> 1.0.1'
