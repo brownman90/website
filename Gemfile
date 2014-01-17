@@ -92,7 +92,8 @@ group :development do
   gem 'binding_of_caller', '~> 0.7.1'
 
   # Faster test execution
-  gem 'spring', '1.0.0'
+  gem 'spring', '~> 1.0.0'
+  gem 'spring-commands-rspec', '~> 1.0.1'
 
   # Guard
   gem 'guard', '~> 2.2.5'
